@@ -11,5 +11,8 @@
  * @return {ListNode}
  */
 var mergeTwoLists = function(list1, list2) {
+    const result = list1.concat(list2).sort((a,b)=>a-b)
+    console.log(result);
     
+};
 };
